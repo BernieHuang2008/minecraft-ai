@@ -15,6 +15,7 @@ const settings = {
     "profiles": [
         // "./lucy.json",
         "./max.json",
+        "./tim.json",
         // if you are using more than 1 profile, then 
         // - you can use /msg or @botname in order to talk to each bot indivually
         // - or you can use @all in order to talk to all the bots at the same time
