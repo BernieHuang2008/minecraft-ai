@@ -23,6 +23,7 @@ import { Hyperbolic } from './hyperbolic.js';
 import { GLHF } from './glhf.js';
 import { OpenRouter } from './openrouter.js';
 import { Enhancer } from './enhancers/enhancer.js';
+import { BHEnhancer } from './enhancers/bh-enhancer.js';
 
 export class Prompter {
     constructor(agent, fp) {
@@ -135,6 +136,8 @@ export class Prompter {
         if (profile && profile.name) {
             if (profile.name == "mc_ai-enchancer") {
                 return new Enhancer(profile);
+            } else if (profile.name == "bh-enhancer") {
+                return new BHEnhancer(profile);
             } else {
                 console.log("Invalid enhancer name. Use default enhancer.");
                 return new Enhancer(profile);

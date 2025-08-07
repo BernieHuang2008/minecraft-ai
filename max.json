@@ -1,5 +1,5 @@
 {
-    "name": "Max",
+    "name": "max",
     "skin": {
         "model" : "classic",
         "file" : "~/Projects/minecraft-ai/skins/max.png"
@@ -10,7 +10,7 @@
         "api" : "pollinations",
         "model": "openai"
     },
-    "enhancer" : {"name" : ""}, 
+    "enhancer" : {"name" : "bh-enhancer"}, 
     "viewer" : false,
     "vision_model" : {
         "api" : "doubao",

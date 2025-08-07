@@ -14,7 +14,7 @@ const settings = {
     "base_profile": "./profiles/defaults/survival.json", // survival.json, creative.json, god_mode.json
     "profiles": [
         // "./lucy.json",
-        "./max.json",
+        // "./max.json",
         "./tim.json",
         // if you are using more than 1 profile, then 
         // - you can use /msg or @botname in order to talk to each bot indivually
